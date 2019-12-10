@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\3_mergeSort\SortTestHelper.h(19,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\3_mergeSort\SortTestHelper.h(34,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+LINK : fatal error LNK1104: 无法打开文件“opencv_world346d.lib”

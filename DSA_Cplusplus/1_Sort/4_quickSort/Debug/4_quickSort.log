@@ -1,0 +1,19 @@
+﻿  main.cpp
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\SortTestHelper.h(19,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\SortTestHelper.h(34,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\quickSort1.h(47,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\quickSort2.h(63,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\quickSort3.h(51,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\quickSort2.h(63,12): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\main.cpp(16): message :  查看对正在编译的函数 模板 实例化“void quickSort2<T>(T [],int)”的引用
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\main.cpp(16): message :         with
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\main.cpp(16): message :         [
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\main.cpp(16): message :             T=int
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\main.cpp(16): message :         ]
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\quickSort3.h(51,12): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\main.cpp(17): message :  查看对正在编译的函数 模板 实例化“void quickSort3<T>(T [],int)”的引用
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\main.cpp(17): message :         with
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\main.cpp(17): message :         [
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\main.cpp(17): message :             T=int
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\1_Sort\4_quickSort\main.cpp(17): message :         ]
+  4_quickSort.vcxproj -> D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\Debug\4_quickSort.exe
