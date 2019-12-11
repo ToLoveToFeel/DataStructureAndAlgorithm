@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\3_BinarySearchTree\1_BinarySearch\binarySearch.h(46): warning C4715:  “__binarySearch2<int>”: 不是所有的控件路径都返回值
+  1_BinarySearch.vcxproj -> D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\Debug\1_BinarySearch.exe
