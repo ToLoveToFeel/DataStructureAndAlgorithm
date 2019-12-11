@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\2_Heap\1_MaxHeap\SortTestHelper.h(19,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\2_Heap\1_MaxHeap\SortTestHelper.h(34,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  1_MaxHeap.vcxproj -> D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\Debug\1_MaxHeap.exe
