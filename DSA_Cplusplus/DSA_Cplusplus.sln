@@ -25,6 +25,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_BinarySearch", "3_BinaryS
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_BinarySearchTree", "3_BinarySearchTree\2_BinarySearchTree\2_BinarySearchTree.vcxproj", "{329334A6-5675-40CB-A7C9-26C9BEB9D421}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_UnionFind", "4_UnionFind", "{C57282DA-C793-4977-84BF-048809211E7F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnionFind", "4_UnionFind\UnionFind\UnionFind.vcxproj", "{B8687CCB-BC54-4B1F-8ACA-17F9DAF7EEFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -97,6 +101,14 @@ Global
 		{329334A6-5675-40CB-A7C9-26C9BEB9D421}.Release|x64.Build.0 = Release|x64
 		{329334A6-5675-40CB-A7C9-26C9BEB9D421}.Release|x86.ActiveCfg = Release|Win32
 		{329334A6-5675-40CB-A7C9-26C9BEB9D421}.Release|x86.Build.0 = Release|Win32
+		{B8687CCB-BC54-4B1F-8ACA-17F9DAF7EEFF}.Debug|x64.ActiveCfg = Debug|x64
+		{B8687CCB-BC54-4B1F-8ACA-17F9DAF7EEFF}.Debug|x64.Build.0 = Debug|x64
+		{B8687CCB-BC54-4B1F-8ACA-17F9DAF7EEFF}.Debug|x86.ActiveCfg = Debug|Win32
+		{B8687CCB-BC54-4B1F-8ACA-17F9DAF7EEFF}.Debug|x86.Build.0 = Debug|Win32
+		{B8687CCB-BC54-4B1F-8ACA-17F9DAF7EEFF}.Release|x64.ActiveCfg = Release|x64
+		{B8687CCB-BC54-4B1F-8ACA-17F9DAF7EEFF}.Release|x64.Build.0 = Release|x64
+		{B8687CCB-BC54-4B1F-8ACA-17F9DAF7EEFF}.Release|x86.ActiveCfg = Release|Win32
+		{B8687CCB-BC54-4B1F-8ACA-17F9DAF7EEFF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +122,7 @@ Global
 		{D993CFDD-9429-4525-AA3E-101F6E8CA756} = {2728A7D6-36CF-497E-A86F-5A3A8B7A9100}
 		{21F4A36D-B4AB-40A0-92F0-27A27244FD8C} = {0FAEC7C0-940C-459E-AC99-9E3211B17400}
 		{329334A6-5675-40CB-A7C9-26C9BEB9D421} = {0FAEC7C0-940C-459E-AC99-9E3211B17400}
+		{B8687CCB-BC54-4B1F-8ACA-17F9DAF7EEFF} = {C57282DA-C793-4977-84BF-048809211E7F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E68D1849-678F-4C30-AF14-303EDD7195D4}

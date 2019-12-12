@@ -1,0 +1,8 @@
+﻿  main.cpp
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\4_UnionFind\UnionFind\UnionFindTestHelper.h(20,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\4_UnionFind\UnionFind\UnionFindTestHelper.h(48,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\4_UnionFind\UnionFind\UnionFindTestHelper.h(71,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\4_UnionFind\UnionFind\UnionFindTestHelper.h(94,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\4_UnionFind\UnionFind\UnionFindTestHelper.h(117,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\4_UnionFind\UnionFind\UnionFindTestHelper.h(140,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  UnionFind.vcxproj -> D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\Debug\UnionFind.exe
