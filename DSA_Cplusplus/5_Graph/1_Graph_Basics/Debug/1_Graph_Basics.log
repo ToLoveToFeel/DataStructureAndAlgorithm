@@ -1,2 +1,6 @@
 ﻿  main.cpp
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\SparseGraph.h(59,21): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\SparseGraph.h(69,22): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\SparseGraph.h(104,14): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\SparseGraph.h(112,17): warning C4018:  “>=”: 有符号/无符号不匹配
   1_Graph_Basics.vcxproj -> D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\Debug\1_Graph_Basics.exe
