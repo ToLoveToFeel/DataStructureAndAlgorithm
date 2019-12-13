@@ -3,4 +3,12 @@ D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\SparseGra
 D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\SparseGraph.h(69,22): warning C4018:  “<”: 有符号/无符号不匹配
 D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\SparseGraph.h(104,14): warning C4018:  “<”: 有符号/无符号不匹配
 D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\SparseGraph.h(112,17): warning C4018:  “>=”: 有符号/无符号不匹配
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\ShortestPath.h(102,2): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\ShortestPath.h(96): message :  在编译 类 模板 成员函数“void ShortestPath<SparseGraph>::showPath(int)”时
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\main.cpp(46): message :  查看对正在编译的函数 模板 实例化“void ShortestPath<SparseGraph>::showPath(int)”的引用
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\main.cpp(44): message :  查看对正在编译的 类 模板 实例化“ShortestPath<SparseGraph>”的引用
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\Path.h(85,2): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\Path.h(82): message :  在编译 类 模板 成员函数“void Path<SparseGraph>::showPath(int)”时
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\main.cpp(41): message :  查看对正在编译的函数 模板 实例化“void Path<SparseGraph>::showPath(int)”的引用
+D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\1_Graph_Basics\main.cpp(39): message :  查看对正在编译的 类 模板 实例化“Path<SparseGraph>”的引用
   1_Graph_Basics.vcxproj -> D:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\Debug\1_Graph_Basics.exe
