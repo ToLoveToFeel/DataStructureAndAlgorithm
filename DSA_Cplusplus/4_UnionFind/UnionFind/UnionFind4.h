@@ -11,7 +11,7 @@ namespace UF4 {
 	class UnionFind
 	{
 	private:
-		// 我们的第二版Union-Find, 使用一个数组构建一棵指向父节点的树
+		// 我们的第四版Union-Find, 使用一个数组构建一棵指向父节点的树
 		// parent[i]表示第一个元素所指向的父节点
 		int* parent;
 		int* rank;   // rank[i]表示以i为根的集合所表示的树的层数
@@ -25,11 +25,11 @@ namespace UF4 {
 		int find(int p);
 
 		// 查看元素p和元素q是否所属一个集合
-		// O(1)复杂度
+		// O(h)复杂度
 		bool isConnected(int p, int q);
 
 		// 合并元素p和元素q所属的集合
-		// O(n) 复杂度
+		// O(h) 复杂度
 		void unionElements(int p, int q);
 
 	};

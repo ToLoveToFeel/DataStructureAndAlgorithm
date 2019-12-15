@@ -24,11 +24,11 @@ namespace UF2 {
 		int find(int p);
 
 		// 查看元素p和元素q是否所属一个集合
-		// O(1)复杂度
+		// O(h)复杂度
 		bool isConnected(int p, int q);
 
 		// 合并元素p和元素q所属的集合
-		// O(n) 复杂度
+		// O(h) 复杂度
 		void unionElements(int p, int q);
 
 	};
