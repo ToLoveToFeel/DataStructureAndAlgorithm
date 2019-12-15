@@ -1,0 +1,35 @@
+﻿  main.cpp
+C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\Dijkstra.h(123): warning C4018: “<”: 有符号/无符号不匹配
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\Dijkstra.h(116): note: 编译 类 模板 成员函数 "void Dijkstra<SparseGraph<int>,int>::showPath(int)" 时
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\main.cpp(25): note: 参见对正在编译的函数 模板 实例化“void Dijkstra<SparseGraph<int>,int>::showPath(int)”的引用
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\main.cpp(21): note: 参见对正在编译的 类 模板 实例化 "Dijkstra<SparseGraph<int>,int>" 的引用
+C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\SparseGraph.h(32): warning C4018: “<”: 有符号/无符号不匹配
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\SparseGraph.h(30): note: 编译 类 模板 成员函数 "SparseGraph<int>::~SparseGraph(void)" 时
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\main.cpp(15): note: 参见对正在编译的函数 模板 实例化“SparseGraph<int>::~SparseGraph(void)”的引用
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\main.cpp(15): note: 参见对正在编译的 类 模板 实例化 "SparseGraph<int>" 的引用
+C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\SparseGraph.h(110): warning C4018: “>=”: 有符号/无符号不匹配
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\SparseGraph.h(109): note: 编译 类 模板 成员函数 "bool SparseGraph<int>::adjIterator::end(void)" 时
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\Dijkstra.h(53): note: 参见对正在编译的函数 模板 实例化“bool SparseGraph<int>::adjIterator::end(void)”的引用
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\Dijkstra.h(52): note: 参见对正在编译的 类 模板 实例化 "SparseGraph<int>::adjIterator" 的引用
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\Dijkstra.h(23): note: 编译 类 模板 成员函数 "Dijkstra<SparseGraph<int>,int>::Dijkstra(Graph &,int)" 时
+          with
+          [
+              Graph=SparseGraph<int>
+          ]
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\main.cpp(21): note: 参见对正在编译的函数 模板 实例化“Dijkstra<SparseGraph<int>,int>::Dijkstra(Graph &,int)”的引用
+          with
+          [
+              Graph=SparseGraph<int>
+          ]
+C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\SparseGraph.h(103): warning C4018: “<”: 有符号/无符号不匹配
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\SparseGraph.h(101): note: 编译 类 模板 成员函数 "Edge<Weight> *SparseGraph<Weight>::adjIterator::next(void)" 时
+          with
+          [
+              Weight=int
+          ]
+  C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\5_Graph\3_ShortestPath\Dijkstra.h(53): note: 参见对正在编译的函数 模板 实例化“Edge<Weight> *SparseGraph<Weight>::adjIterator::next(void)”的引用
+          with
+          [
+              Weight=int
+          ]
+  3_ShortestPath.vcxproj -> C:\Code\DataStructureAndAlgorithm\DSA_Cplusplus\Debug\3_ShortestPath.exe

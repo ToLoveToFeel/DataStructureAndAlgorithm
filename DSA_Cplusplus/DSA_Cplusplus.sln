@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_Graph_Basics", "5_Graph\1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_Minimum_Span_Trees", "5_Graph\2_Minimum_Span_Trees\2_Minimum_Span_Trees.vcxproj", "{C4557705-87DF-4073-A4EC-F0B79E170D61}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_ShortestPath", "5_Graph\3_ShortestPath\3_ShortestPath.vcxproj", "{F45628F5-DE65-4971-B465-3FD8281338F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{C4557705-87DF-4073-A4EC-F0B79E170D61}.Release|x64.Build.0 = Release|x64
 		{C4557705-87DF-4073-A4EC-F0B79E170D61}.Release|x86.ActiveCfg = Release|Win32
 		{C4557705-87DF-4073-A4EC-F0B79E170D61}.Release|x86.Build.0 = Release|Win32
+		{F45628F5-DE65-4971-B465-3FD8281338F8}.Debug|x64.ActiveCfg = Debug|x64
+		{F45628F5-DE65-4971-B465-3FD8281338F8}.Debug|x64.Build.0 = Debug|x64
+		{F45628F5-DE65-4971-B465-3FD8281338F8}.Debug|x86.ActiveCfg = Debug|Win32
+		{F45628F5-DE65-4971-B465-3FD8281338F8}.Debug|x86.Build.0 = Debug|Win32
+		{F45628F5-DE65-4971-B465-3FD8281338F8}.Release|x64.ActiveCfg = Release|x64
+		{F45628F5-DE65-4971-B465-3FD8281338F8}.Release|x64.Build.0 = Release|x64
+		{F45628F5-DE65-4971-B465-3FD8281338F8}.Release|x86.ActiveCfg = Release|Win32
+		{F45628F5-DE65-4971-B465-3FD8281338F8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +157,7 @@ Global
 		{B8687CCB-BC54-4B1F-8ACA-17F9DAF7EEFF} = {C57282DA-C793-4977-84BF-048809211E7F}
 		{3464F79E-7EF4-4224-BD5E-653A503DFA46} = {98C9B7F4-19FF-4A27-ADA2-64204521C674}
 		{C4557705-87DF-4073-A4EC-F0B79E170D61} = {98C9B7F4-19FF-4A27-ADA2-64204521C674}
+		{F45628F5-DE65-4971-B465-3FD8281338F8} = {98C9B7F4-19FF-4A27-ADA2-64204521C674}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E68D1849-678F-4C30-AF14-303EDD7195D4}
