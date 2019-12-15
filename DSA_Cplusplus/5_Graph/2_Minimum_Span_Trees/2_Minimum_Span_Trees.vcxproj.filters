@@ -33,6 +33,12 @@
     <ClInclude Include="LazyPrimMST.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="IndexMinHeap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimMST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="testG1.txt">
