@@ -126,11 +126,13 @@
     <ClInclude Include="DenseGraph.h" />
     <ClInclude Include="Edge.h" />
     <ClInclude Include="IndexMinHeap.h" />
+    <ClInclude Include="KruskalMST.h" />
     <ClInclude Include="LazyPrimMST.h" />
     <ClInclude Include="MinHeap.h" />
     <ClInclude Include="PrimMST.h" />
     <ClInclude Include="ReadGraph.h" />
     <ClInclude Include="SparseGraph.h" />
+    <ClInclude Include="UnionFind.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="testG1.txt" />

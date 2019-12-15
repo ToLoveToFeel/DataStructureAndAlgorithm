@@ -39,6 +39,12 @@
     <ClInclude Include="PrimMST.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="KruskalMST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionFind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="testG1.txt">
