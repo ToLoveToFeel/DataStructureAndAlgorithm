@@ -27,6 +27,12 @@
     <ClInclude Include="ReadGraph.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MinHeap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LazyPrimMST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="testG1.txt">

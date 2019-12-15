@@ -125,6 +125,8 @@
   <ItemGroup>
     <ClInclude Include="DenseGraph.h" />
     <ClInclude Include="Edge.h" />
+    <ClInclude Include="LazyPrimMST.h" />
+    <ClInclude Include="MinHeap.h" />
     <ClInclude Include="ReadGraph.h" />
     <ClInclude Include="SparseGraph.h" />
   </ItemGroup>

@@ -57,7 +57,7 @@ public:
 	bool hasEdge(int v, int w) {
 		assert(v >= 0 && v < n);
 		assert(w >= 0 && w < n);
-		return NULL == g[i][j];
+		return NULL == g[v][w];
 	}
 
 	// 显示图的信息
