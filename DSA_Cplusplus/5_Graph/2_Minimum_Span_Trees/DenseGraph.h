@@ -49,7 +49,7 @@ public:
 
 		g[v][w] = new Edge<Weight>(v, w, weight);
 		if (v != w && !directed)
-			g[w][v] = new Edge<Weight>(v, w, weight);
+			g[w][v] = new Edge<Weight>(w, v, weight);
 		m++;
 	}
 

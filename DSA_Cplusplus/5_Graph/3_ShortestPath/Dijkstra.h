@@ -11,11 +11,11 @@ using namespace std;
 template<typename Graph, typename Weight>
 class Dijkstra {
 private:
-	Graph& G;                   // 图的引用
-	int s;                      // 起始点
-	Weight* distTo;             // distTo[i]存储从起始点s到i的最短路径长度
-	bool* marked;               // 标记数组, 在算法运行过程中标记节点i是否被访问
-	vector<Edge<Weight>*> from; // from[i]记录最短路径中, 到达i点的边是哪一条
+	Graph& G;					// 图的引用
+	int s;						// 起始点
+	Weight* distTo;				// distTo[i]存储从起始点s到i的最短路径长度
+	bool* marked;					// 标记数组, 在算法运行过程中标记节点i是否被访问
+	vector<Edge<Weight>*> from;	// from[i]记录最短路径中, 到达i点的边是哪一条
 								// 可以用来恢复整个最短路径
 
 public:
@@ -45,7 +45,6 @@ public:
 		{
 			int v = ipq.extractMinIndex();
 
-			// distTo[v]就是s到v的最短距离
 			marked[v] = true;
 
 			// 对v的所有相邻节点进行更新
@@ -57,7 +56,7 @@ public:
 					// 如果w点以前没有访问过,
 					// 或者访问过, 但是通过当前的v点到w点距离更短, 则进行更新
 					if (from[w] == NULL || distTo[v] + e->wt() < distTo[w]) {
-						distTo[w] = distTo[v] + e->wt();
+						distTo[w] = distTo[v] + e->wt();  // distTo[v]就是s到v的最短距离
 						from[w] = e;
 						if (ipq.contain(w))
 							ipq.change(w, distTo[w]);
@@ -73,7 +72,7 @@ public:
 	~Dijkstra() {
 		delete[] distTo;
 		delete[] marked;
-		delete from[0];
+		
 	}
 
 	// 返回从s点到w点的最短路径长度
