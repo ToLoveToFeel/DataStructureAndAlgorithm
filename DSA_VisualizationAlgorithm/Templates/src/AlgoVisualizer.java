@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.MouseAdapter;
 
-public class AlgoVisualizer {
+public class AlgoVisualizer {  // 控制层
     // TODO：创建自己的数据
     private Object data;        // 数据
     private AlgoFrame frame;    // 视图
@@ -12,7 +12,7 @@ public class AlgoVisualizer {
         // TODO: 初始化数据
 
         // 初始化视图
-        EventQueue.invokeLater(()->{
+        EventQueue.invokeLater(()->{  // GUI创建的代码放到了新的线程(事件分发线程，事件派生队列)中
             frame = new AlgoFrame("Welcome", sceneWidth, sceneHeight);
             // TODO: 根据情况决定是否加入键盘鼠标事件监听器
             frame.addKeyListener(new AlgoKeyListener());
@@ -25,8 +25,9 @@ public class AlgoVisualizer {
 
     // 动画逻辑
     private void run(){
-
         // TODO: 编写自己的动画逻辑
+        // TODO：调用render()可以刷新画布
+
     }
 
     // TODO: 根据情况决定是否实现键盘鼠标等交互事件监听器类

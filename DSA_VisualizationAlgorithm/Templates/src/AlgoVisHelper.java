@@ -28,36 +28,45 @@ public class AlgoVisHelper {
     public static final Color Black = new Color(0x000000);
     public static final Color White = new Color(0xFFFFFF);
 
+    // 空心圆
     public static void strokeCircle(Graphics2D g, int x, int y, int r){
         Ellipse2D circle = new Ellipse2D.Double(x-r, y-r, 2*r, 2*r);
         g.draw(circle);
     }
 
+    // 实心圆
     public static void fillCircle(Graphics2D g, int x, int y, int r){
         Ellipse2D circle = new Ellipse2D.Double(x-r, y-r, 2*r, 2*r);
         g.fill(circle);
     }
 
+    // 空心矩形
     public static void strokeRectangle(Graphics2D g, int x, int y, int w, int h){
         Rectangle2D rectangle = new Rectangle2D.Double(x, y, w, h);
         g.draw(rectangle);
     }
 
+    // 实心矩形
     public static void fillRectangle(Graphics2D g, int x, int y, int w, int h){
 
         Rectangle2D rectangle = new Rectangle2D.Double(x, y, w, h);
         g.fill(rectangle);
     }
 
+    // 设置绘图颜色
     public static void setColor(Graphics2D g, Color color){
         g.setColor(color);
     }
 
     public static void setStrokeWidth(Graphics2D g, int w){
         int strokeWidth = w;
-        g.setStroke(new BasicStroke(strokeWidth, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND));
+        g.setStroke(new BasicStroke(strokeWidth,  // 线条宽度
+                                    BasicStroke.CAP_ROUND,  // 线条端点圆形
+                                    BasicStroke.JOIN_ROUND  // 线条拐弯时拐点为平滑圆形形式
+                                    ));
     }
 
+    // 暂停一段时间
     public static void pause(int t){
         try{
             Thread.sleep(t);
@@ -67,6 +76,7 @@ public class AlgoVisHelper {
         }
     }
 
+    // 放置图片
     public static void putImage(Graphics2D g, int x, int y, String imageURL){
         ImageIcon icon = new ImageIcon(imageURL);
         Image image = icon.getImage();
@@ -74,6 +84,7 @@ public class AlgoVisHelper {
         g.drawImage(image, x, y, null);
     }
 
+    // 放置文本
     public static void drawText(Graphics2D g, String text, int centerx, int centery){
         if (null == text)
             throw new IllegalArgumentException("Text is null in drawText function!");
