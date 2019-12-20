@@ -6,6 +6,7 @@ public class AlgoVisualizer {  // 控制层
     // TODO：创建自己的数据
     private Object data;        // 数据
     private AlgoFrame frame;    // 视图
+    private static int DELAY = 40;
 
     public AlgoVisualizer(int sceneWidth, int sceneHeight){
         // 初始化数据
