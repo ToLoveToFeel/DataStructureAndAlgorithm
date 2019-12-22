@@ -63,6 +63,10 @@ public class AlgoFrame extends JFrame {
                     AlgoVisHelper.setColor(g2d, AlgoVisHelper.Purple);
                 else
                     AlgoVisHelper.setColor(g2d, AlgoVisHelper.Grey);
+
+                if( i >= data.l && i <= data.mergeIndex )
+                    AlgoVisHelper.setColor(g2d, AlgoVisHelper.Red);
+
                 AlgoVisHelper.fillRectangle(g2d, i*w, canvasHeight - data.get(i), w-1, data.get(i));
             }
 
