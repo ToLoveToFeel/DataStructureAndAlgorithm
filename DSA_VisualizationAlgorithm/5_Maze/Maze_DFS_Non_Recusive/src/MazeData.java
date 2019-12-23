@@ -13,8 +13,9 @@ public class MazeData {
 
     private int N, M;  // 行数，列数
     private char[][] maze;
-    public boolean[][] path;  // 记录迷宫的路径，path[i][j] = true的话，path[i][j]在迷宫的路径上
+    public boolean[][] path;  // 记录走过的路径，path[i][j] = true的话，path[i][j]在已被遍历过
     public boolean[][] visited;  // DFS中记录路径是否已经访问过
+    public boolean[][] result;  // 记录迷宫的路径，result[i][j] = true的话，result[i][j]在迷宫的路径上
 
     public MazeData(String filename){
         if (null == filename)
@@ -40,6 +41,7 @@ public class MazeData {
             visited = new boolean[N][M];
             path = new boolean[N][M];
             maze = new char[N][M];
+            result = new boolean[N][M];
             for (int i = 0; i < N; i++){
                 String line = scanner.nextLine();
 
@@ -50,6 +52,7 @@ public class MazeData {
                     maze[i][j] = line.charAt(j);
                     visited[i][j] = false;
                     path[i][j] = false;
+                    result[i][j] = false;
                 }
             }
         }
