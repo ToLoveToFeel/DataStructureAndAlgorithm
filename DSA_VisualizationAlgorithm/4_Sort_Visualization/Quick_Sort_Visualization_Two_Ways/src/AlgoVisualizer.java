@@ -107,6 +107,6 @@ public class AlgoVisualizer {  // 控制层
 
         // TODO: 根据需要设置其他参数，初始化visualizer
 //        AlgoVisualizer visualizer = new AlgoVisualizer(sceneWidth, sceneHeight, N);
-        AlgoVisualizer visualizer = new AlgoVisualizer(sceneWidth, sceneHeight, N, QuickSortData.Type.NearlyOrdered);
+        AlgoVisualizer visualizer = new AlgoVisualizer(sceneWidth, sceneHeight, N, QuickSortData.Type.Identical);
     }
 }
