@@ -1,13 +1,13 @@
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.MouseAdapter;
-import java.util.Stack;
+import java.util.LinkedList;
 
 public class AlgoVisualizer {  // 控制层
 
     private MazeData data;        // 数据
     private AlgoFrame frame;    // 视图
-    private static int DELAY = 4;
+    private static int DELAY = 1;
     private static int blockSide = 8;
     private static final int d[][] = {{-1,0},{0,1},{1,0},{0,-1}};  // 左，下，右，上
 
@@ -31,16 +31,16 @@ public class AlgoVisualizer {  // 控制层
     private void run(){
         setData(-1, -1, false);
 
-        // 深度优先遍历
-        Stack<Position> stack = new Stack<Position>();
+        // 广度优先遍历
+        LinkedList<Position> queue = new LinkedList<>();
         Position entrance = new Position(data.getEntranceX(), data.getEntranceY());
-        stack.push(entrance);
+        queue.addLast(entrance);
         data.visited[data.getEntranceX()][data.getEntranceY()] = true;
 
         boolean isSolved = false;
 
-        while (!stack.empty()){
-            Position curPos = stack.pop();
+        while (0 != queue.size()){
+            Position curPos = queue.pop();
             setData(curPos.getX(), curPos.getY(), true);
 
             if (curPos.getX() == data.getExitX() && curPos.getY() == data.getExitY()){
@@ -55,7 +55,7 @@ public class AlgoVisualizer {  // 控制层
                 if (data.inArea(newX, newY) &&
                         !data.visited[newX][newY] &&
                         data.getMaze(newX, newY) == MazeData.ROAD){
-                    stack.push(new Position(newX, newY, curPos));
+                    queue.addLast(new Position(newX, newY, curPos));
                     data.visited[newX][newY] = true;
                 }
             }
