@@ -9,7 +9,7 @@ public class AlgoVisualizer {  // 控制层
     private AlgoFrame frame;    // 视图
     private static int DELAY = 1;
     private static int blockSide = 8;
-    private static final int d[][] = {{-1,0},{0,1},{1,0},{0,-1}};  // 左，下，右，上
+    private static final int d[][] = {{-1,0},{0,1},{1,0},{0,-1}};  // 上，右，下，左
 
     public AlgoVisualizer(String mazeFile){
         // 初始化数据
