@@ -13,7 +13,7 @@ public class MazeData {
 
     private int N, M;  // 行数，列数
     private char[][] maze;
-    public boolean[][] path;  // 记录走过的路径，path[i][j] = true的话，path[i][j]在已被遍历过
+    public boolean[][] path;  // 记录正在走的路径，path[i][j] = true的话，path[i][j]在已被遍历过，可能会被回溯
     public boolean[][] visited;  // DFS中记录路径是否已经访问过
     public boolean[][] result;  // 记录迷宫的路径，result[i][j] = true的话，result[i][j]在迷宫的路径上
 
