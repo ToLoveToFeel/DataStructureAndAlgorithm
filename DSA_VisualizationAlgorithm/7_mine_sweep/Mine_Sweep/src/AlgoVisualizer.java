@@ -19,7 +19,7 @@ public class AlgoVisualizer {  // 控制层
 
         // 初始化视图
         EventQueue.invokeLater(()->{  // GUI创建的代码放到了新的线程(事件分发线程，事件派生队列)中
-            frame = new AlgoFrame("Welcome", sceneWidth, sceneHeight);
+            frame = new AlgoFrame("Maze Sweep", sceneWidth, sceneHeight);
 
             frame.addMouseListener(new AlgoMouseListener());  // 通知AlgoFrame监听鼠标事件
             new Thread(() -> {
