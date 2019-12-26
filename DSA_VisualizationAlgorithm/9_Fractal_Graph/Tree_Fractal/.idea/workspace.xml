@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a301240d-d4c1-401c-af5e-97f4f1f363fc" name="Default" comment="" />
+    <list default="true" id="54c56d00-872f-485b-99df-984e3c34cfc7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,21 +12,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AlgoVisualizer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AlgoVisualizer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AlgoVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlgoFrame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AlgoFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AlgoFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2232">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="213">
+              <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -73,26 +73,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Snowflake_Fractal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Snowflake_Fractal" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree_Fractal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tree_Fractal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Snowflake_Fractal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Snowflake_Fractal" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree_Fractal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tree_Fractal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,7 +131,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Snowflake_Fractal" />
+      <module name="Tree_Fractal" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -222,17 +222,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a301240d-d4c1-401c-af5e-97f4f1f363fc" name="Default" comment="" />
-      <created>1577346347787</created>
+      <changelist id="54c56d00-872f-485b-99df-984e3c34cfc7" name="Default" comment="" />
+      <created>1577346627690</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577346347787</updated>
-      <workItem from="1577346349849" duration="278000" />
+      <updated>1577346627690</updated>
+      <workItem from="1577346629395" duration="112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278000" />
+    <option name="totallyTimeSpent" value="112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -278,18 +278,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AlgoFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/AlgoVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2232">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlgoVisualizer.java">
+    <entry file="file://$PROJECT_DIR$/src/AlgoFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="213">
+          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="34" />
           <folding />
         </state>
       </provider>
