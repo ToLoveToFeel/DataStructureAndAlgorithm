@@ -94,7 +94,7 @@ public class AlgoVisualizer {  // 控制层
 
     public static void main(String[] args) {
 
-        String filename = "level/boston_16.txt";
+        String filename = "level/boston_24.txt";
 
         // TODO: 根据需要设置其他参数，初始化visualizer
         AlgoVisualizer visualizer = new AlgoVisualizer(filename);

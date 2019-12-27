@@ -1,0 +1,9 @@
+3
+.........
+....A....
+....BA...
+...AAB.C.
+...BDAAC.
+..AADEED.
+..DDEDCC.
+.AEEDCCD.
