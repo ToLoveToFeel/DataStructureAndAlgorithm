@@ -1,0 +1,9 @@
+1
+.......
+...A...
+...A...
+.AABAA.
+.BCACB.
+.AABAA.
+.BCBCB.
+ABCACBA
