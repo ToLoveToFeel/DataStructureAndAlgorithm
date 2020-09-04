@@ -6,7 +6,7 @@ public class AlgoVisualizer {  // 控制层
 
     private InsertionSortData data;        // 数据
     private AlgoFrame frame;    // 视图
-    private static int DELAY = 500;
+    private static int DELAY = 40;
 
     public AlgoVisualizer(int sceneWidth, int sceneHeight, int N){
         // 初始化数据
@@ -61,7 +61,7 @@ public class AlgoVisualizer {  // 控制层
 
         int sceneWidth = 800;
         int sceneHeight = 800;
-        int N = 10;
+        int N = 100;
 
         // TODO: 根据需要设置其他参数，初始化visualizer
         AlgoVisualizer visualizer = new AlgoVisualizer(sceneWidth, sceneHeight, N);
